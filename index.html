@@ -11,98 +11,97 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
     <link rel="stylesheet" href="/styles/styles.css" />
 
     <title>Frontend Mentor | FAQ Accordion Card</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <section class="faq">
-      <div class="image"></div>
+      <div class="images">
+        <div class="background">
+          <img
+            class="pattern"
+            src="/images/bg-pattern-desktop.svg"
+            alt="background"
+          />
+          <img
+            src="/images/illustration-woman-online-desktop.svg"
+            alt="woman-on-desktop"
+            class="woman-vector"
+          />
+        </div>
+        <div class="box">
+          <img src="/images/illustration-box-desktop.svg" alt="" />
+        </div>
+      </div>
       <div class="faq-main">
         <h1>FAQ</h1>
 
-        <div class="question-container">
-          <div class="question">
-            <div class="question-head">How many team members can I invite?</div>
-            <div class="answer">
+        <div class="question-container active">
+          <div class="question-head">
+            <h2>How many team members can I invite?</h2>
+            <div class="toggle"></div>
+          </div>
+          <div class="answer">
+            <p>
               You can invite up to 2 additional users on the Free plan. There is
               no limit on team members for the Premium plan.
-            </div>
+            </p>
           </div>
-          <div class="toggle"></div>
         </div>
 
         <div class="question-container">
-          <div class="question">
-            <div class="question-head">
-              What is the maximum file upload size?
-            </div>
-            <div class="answer">
+          <div class="question-head">
+            <h2>What is the maximum file upload size?</h2>
+            <div class="toggle"></div>
+          </div>
+          <div class="answer">
+            <p>
               No more than 2GB. All files in your account must fit your allotted
               storage space.
-            </div>
+            </p>
           </div>
-          <div class="toggle"></div>
         </div>
 
         <div class="question-container">
-          <div class="question">
-            <div class="question-head">How do I reset my password?</div>
-            <div class="answer">
+          <div class="question-head">
+            <h2>How do I reset my password?</h2>
+            <div class="toggle"></div>
+          </div>
+          <div class="answer">
+            <p>
               Click “Forgot password” from the login page or “Change password”
               from your profile page. A reset link will be emailed to you.
-            </div>
+            </p>
           </div>
-          <div class="toggle"></div>
         </div>
 
         <div class="question-container">
-          <div class="question">
-            <div class="question-head">Can I cancel my subscription?</div>
-            <div class="answer">
+          <div class="question-head">
+            <h2>Can I cancel my subscription?</h2>
+            <div class="toggle"></div>
+          </div>
+          <div class="answer">
+            <p>
               Yes! Send us a message and we’ll process your request no questions
               asked.
-            </div>
+            </p>
           </div>
-          <div class="toggle"></div>
         </div>
 
         <div class="question-container">
-          <div class="question">
-            <div class="question-head">Do you provide additional support?</div>
-            <div class="answer">
+          <div class="question-head">
+            <h2>Do you provide additional support?</h2>
+            <div class="toggle"></div>
+          </div>
+          <div class="answer">
+            <p>
               Chat and email support is available 24/7. Phone lines are open
               during normal business hours.
-            </div>
+            </p>
           </div>
-          <div class="toggle"></div>
         </div>
       </div>
     </section>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
   </body>
 </html>
