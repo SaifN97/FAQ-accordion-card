@@ -100,6 +100,9 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
+  .background-mobile {
+    display: none;
+  }
   .background {
     position: relative;
     width: 100%;
